@@ -2,8 +2,8 @@
 /*
 Plugin Name: Corner Bracket Lover
 Plugin URI: http://sparanoid.com/lab/corner-bracket-lover/
-Description: A plugin converts all full-width quotation marks to traditional corner brackets.
-Version: 1.0.1
+Description: A plugin converts quotation marks to traditional corner brackets.
+Version: 1.0.2
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
 Author Email: info@sparanoid.com
