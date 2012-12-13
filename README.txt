@@ -5,15 +5,15 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=VJRCEYRS
 Tags: china, chinese, character, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, text, title, wpmu, writing
 Requires at least: 1.5
 Tested up to: 3.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin converts all full-width quotation marks to traditional corner brackets. Useful for some Chinese writer.
+A plugin converts all full-width quotation marks (“” and ‘’) to traditional corner brackets (「」 and 『』).
 
 == Description ==
 
-A plugin converts all full-width quotation marks to traditional corner brackets. A must-have plugin if you're a Chinese writer or just a corner brackets lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu).
+A plugin converts all full-width quotation marks (`“”` and `‘’`) to traditional corner brackets (`「」` and `『』`). A must-have plugin if you're a Chinese writer or just a corner brackets lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu).
 
 == Installation ==
 
@@ -41,10 +41,16 @@ Old-styled WordPress Mu:
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Update readme
+
+= 1.0.0 =
 * First release
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.0.1 =
+* Update readme
+
+= 1.0.0 =
 * First release
