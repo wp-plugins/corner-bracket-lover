@@ -5,15 +5,17 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=VJRCEYRS
 Tags: china, chinese, character, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, text, title, wpmu, writing
 Requires at least: 1.5
 Tested up to: 3.5
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin converts quotation marks (“” and ‘’) to traditional corner brackets (「」 and 『』).
+Corner Bracket Lover converts all curly quotation marks (“” and ‘’) in your posts to traditional corner brackets (「」 and 『』).
 
 == Description ==
 
-A plugin converts quotation marks (`“”` and `‘’`) to traditional corner brackets (`「」` and `『』`). A must-have plugin if you're a Chinese writer or just a corner brackets lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu).
+Corner Bracket Lover converts all curly quotation marks (“” and ‘’) in your posts to traditional corner brackets (「」 and 『』). A must-have plugin if you're a Chinese writer or just a corner brackets lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu).
+
+More information please visit my [site](hhttp://sparanoid.com/work/corner-bracket-lover/).
 
 == Installation ==
 
@@ -41,6 +43,9 @@ Old-styled WordPress Mu:
 
 == Changelog ==
 
+= 1.0.3 =
+* Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/corner-bracket-lover/ props @lianghai
+
 = 1.0.2 =
 * Update description, props @lianghai
 
@@ -51,6 +56,9 @@ Old-styled WordPress Mu:
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+* Update plugin description and page design on sparanoid.com, check it out: http://sparanoid.com/work/corner-bracket-lover/ props @lianghai
 
 = 1.0.2 =
 * Update description, props @lianghai
