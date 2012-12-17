@@ -41,6 +41,8 @@ Old-styled WordPress Mu:
 
 1. A great demo
 
+2. Option page
+
 == Changelog ==
 
 = 1.1.0 =
