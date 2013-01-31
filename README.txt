@@ -1,7 +1,7 @@
 === Corner Bracket Lover ===
 
 Contributors: Sparanoid
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LTXZ835Y6T95S
+Donate link: http://sparanoid.com/donate/
 Tags: china, chinese, character, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, text, title, wpmu, writing
 Requires at least: 1.5
 Tested up to: 3.5
@@ -45,6 +45,9 @@ Old-styled WordPress Mu:
 
 == Changelog ==
 
+= 1.1.1 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
+
 = 1.1.0 =
 * Major update. Add options page, now you can choose which kind of text the plugin can replace.
 
@@ -61,6 +64,9 @@ Old-styled WordPress Mu:
 * First release
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
 
 = 1.1.0 =
 * Major update. Add options page, now you can choose which kind of text the plugin can replace.
