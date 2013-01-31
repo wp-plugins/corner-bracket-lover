@@ -5,7 +5,7 @@ Donate link: http://sparanoid.com/donate/
 Tags: china, chinese, character, comment, comments, content, contents, excerpt, excerpts, feed, feeds, html, multisite, page, pages, plugin, plugins, post, posts, text, title, wpmu, writing
 Requires at least: 1.5
 Tested up to: 3.5
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ Old-styled WordPress Mu:
 
 == Changelog ==
 
+= 1.1.2 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
+
 = 1.1.1 =
 * Update donate link, If you like this plugin, please consider buying me a cup of coffee.
 
@@ -64,6 +67,9 @@ Old-styled WordPress Mu:
 * First release
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+* Update donate link, If you like this plugin, please consider buying me a cup of coffee.
 
 = 1.1.1 =
 * Update donate link, If you like this plugin, please consider buying me a cup of coffee.
