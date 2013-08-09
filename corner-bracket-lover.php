@@ -3,7 +3,7 @@
 Plugin Name: Corner Bracket Lover
 Plugin URI: http://sparanoid.com/work/corner-bracket-lover/
 Description: Corner Bracket Lover converts all curly quotation marks in your posts to traditional corner brackets.
-Version: 1.1.2
+Version: 1.2.0
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
 Author Email: info@sparanoid.com
@@ -197,6 +197,13 @@ function cbl_render_form() {
 // Define replaced contents
 function cbl_replace($the_content) {
 
+  $the_content = str_replace("n’t", "n&rsquo;t", $the_content);
+  $the_content = str_replace("’s", "&rsquo;s", $the_content);
+  $the_content = str_replace("’m", "&rsquo;m", $the_content);
+  $the_content = str_replace("’re", "&rsquo;re", $the_content);
+  $the_content = str_replace("’ve", "&rsquo;ve", $the_content);
+  $the_content = str_replace("’d", "&rsquo;d", $the_content);
+  $the_content = str_replace("’ll", "&rsquo;ll", $the_content);
   $the_content = str_replace("“", "&#12300;", $the_content);
   $the_content = str_replace("”", "&#12301;", $the_content);
   $the_content = str_replace("‘", "&#12302;", $the_content);
