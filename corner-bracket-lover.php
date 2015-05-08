@@ -3,7 +3,7 @@
 Plugin Name: Corner Bracket Lover
 Plugin URI: http://sparanoid.com/work/corner-bracket-lover/
 Description: Corner Bracket Lover converts all curly quotation marks in your posts to traditional corner brackets.
-Version: 1.2.2
+Version: 1.2.3
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
 Author Email: t@sparanoid.com
@@ -103,7 +103,7 @@ function cbl_add_options_page() {
 	add_options_page(
     __( 'Corner Bracket Lover', 'corner-bracket-lover' ),
     __( 'Corner Bracket Lover', 'corner-bracket-lover' ),
-    'manage_options', __FILE__, 'cbl_render_form'
+    'manage_options', 'corner-bracket-lover', 'cbl_render_form'
   );
 }
 
@@ -181,7 +181,7 @@ function cbl_render_form() {
         <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
         <input class="button" type="button" value="<?php _e( 'Follow on Twitter', 'corner-bracket-lover' ); ?>" onClick="window.open('http://twitter.com/tunghsiao')">
         <input class="button" type="button" value="<?php _e( 'Visit My Website', 'corner-bracket-lover' ); ?>" onClick="window.open('http://sparanoid.com/')">
-  			<p><?php _e( 'Love this plugin? Please consider', 'corner-bracket-lover' ); ?> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LTXZ835Y6T95S"><?php _e( 'buying me a cup of coffee', 'corner-bracket-lover' ); ?></a><?php _e( '!', 'corner-bracket-lover' ); ?></p>
+  			<p><?php _e( 'Love this plugin? Please consider', 'corner-bracket-lover' ); ?> <a href="http://sparanoid.com/donate/"><?php _e( 'buying me a cup of coffee', 'corner-bracket-lover' ); ?></a><?php _e( '!', 'corner-bracket-lover' ); ?></p>
 			</p>
 		</form>
 	</div>
@@ -260,7 +260,7 @@ function cbl_filter($content) {
 function cbl_plugin_action_links( $links, $file ) {
 
 	if ( $file == plugin_basename( __FILE__ ) ) {
-		$posk_links = '<a href="'.get_admin_url().'options-general.php?page=corner-bracket-lover/corner-bracket-lover.php">'.__('Settings').'</a>';
+		$posk_links = '<a href="'.get_admin_url().'options-general.php?page=corner-bracket-lover">'.__('Settings').'</a>';
 		// Make sure the 'Settings' link at first
 		array_unshift( $links, $posk_links );
 	}
